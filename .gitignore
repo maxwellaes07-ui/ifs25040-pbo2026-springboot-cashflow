@@ -1,0 +1,26 @@
+# Build
+target/
+!.mvn/wrapper/maven-wrapper.properties
+
+# Environment lokal (template .env.example tetap di-track)
+.env
+!.env.example
+
+# Vaadin
+node_modules/
+package.json
+package-lock.json
+tsconfig.json
+types.d.ts
+vite.config.ts
+vite.generated.ts
+src/main/frontend/generated/
+src/main/bundles/
+src/main/resources/META-INF/VAADIN/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.cursor/
+.DS_Store
